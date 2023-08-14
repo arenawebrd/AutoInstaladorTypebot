@@ -1,5 +1,8 @@
 # Auto Instalador do Typebot
 
+Sumario:
+[Instalação Docker](#instalando-docker)
+
 Este auto instalador foi testado usando uma VPS da Contabo (4vCores + 8Gb Ram) com **Ubunto 20.04**
 
 <hr/>
@@ -20,6 +23,7 @@ Observações sobre provedores de email
   
 </details>
 
+# instalando-docker
 
 >blablabla
 >
@@ -33,3 +37,10 @@ Observações sobre provedores de email
 <ul>
   <li>teste</li>
 </ul>
+
+
+[Instalação Docker](#instalando-docker) |
+[Instalação Portainer](#instalando-portainer) |
+[Instalação Postgree](#instalando-postgree) |
+[Instalação Bridge e Botpress](#instalando-o-bridge-e-bortpress) |
+[Conectando Chatwoot Botpress](#conectando-chatwoot-com-botpress)
