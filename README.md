@@ -12,12 +12,21 @@ git clone https://github.com/oriondesign2015/AutoInstaladorTypebot.git && cd Aut
 
 Observações sobre provedores de email
 <details>
-  <summary>Teste de summary</summary>
-  
-  Olá Mundo
+  <summary>Gmail</summary>
+
+  >
+  >
+  >
   
 </details>
 
->
+
 >blablabla
 >
+>bleblebleble
+>
+
+<p align="center">
+    <img src="https://imagepng.org/google-chrome-icone-icon/google-chrome-icon/" alt="Logo Chatwoot" width=70>
+</p>
+
