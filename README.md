@@ -2,7 +2,7 @@
 
 Este auto instalador foi testado usando uma VPS vazia da Contabo (4vCores + 8Gb Ram) com **Ubunto 20.04**
 
-## Observações importantes:
+### Observações importantes:
 - Recomendo criar uma snapshot da sua vps para evitar qualquer problema que possa vir acontecer;
 - Antes de iniciar a instalação, crie 3 registros no seu DNS do tipo **A**, sendo eles typebot, bot, storage
 <hr/>
