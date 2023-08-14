@@ -1,1 +1,5 @@
 # AutoInstaladorTypebot
+
+```
+sudo apt-update
+```
