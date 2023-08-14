@@ -11,9 +11,9 @@ Vamos precisar de 3 registros, sendo eles “typebot”, “bot” e “storage�
 
 <details>
   <summary>typebot</summary>
-  - Tipo: **A**
-  - Entrada: **typebot**
-  - Conteúdo: **IP do servidor**
+  • Tipo: **A**<br>
+  • Entrada: **typebot**<br>
+  • Conteúdo: **IP do servidor**<br>
   <img src="https://file.notion.so/f/s/c14b5ac1-d43a-4f18-bd76-4f10bd4262f1/Untitled.png?id=9855df72-743c-439d-b865-ec8391b93cc4&table=block&spaceId=f554c1aa-b56c-4ac0-88b1-4679371e6777&expirationTimestamp=1692072000000&signature=whfO8e8AETlGp2JEWdt0ML-i1QIlPr4kejWSGPXk-qY&downloadName=Untitled.png">
 </details>
 
