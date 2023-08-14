@@ -3,10 +3,13 @@
 # Auto Instalador do Typebot
 
 Este auto instalador foi testado usando uma VPS vazia da Contabo (4vCores + 8Gb Ram) com **Ubunto 20.04**
+Nessa versão você pode estar escolhendo as portas na instalação o que possibilita a integração do Typebot com qualquer outra aplicação.
 
 ### 📌 Observações importantes:
 
-Recomendo criar uma snapshot da sua vps para evitar qualquer problema que possa vir acontecer.
+Instalação feita em Docker (Se tiver outros Containers pode ser que eles caiam durante o processo de instalação com este Auto Instalador;
+
+Recomendo criar uma snapshot da sua vps para evitar qualquer problema que possa vir acontecer;
 
 Antes de instalar, é de extrema importancia que você crie 3 registros no DNS, sendo eles “typebot”, “bot” e “storage”. Todos do Tipo **A**, todos apontando para o **ip da sua VPS**, com **Proxy desativado** e **TTL Auto** (ou o valor que vier).
 <details>
