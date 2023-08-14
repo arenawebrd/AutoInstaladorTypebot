@@ -48,7 +48,7 @@ read -p "Porta SMTP (ex: 465): " portasmtp #novo
 echo ""
 read -p "SMTP_SECURE (Se a porta SMTP for 465, digite true, caso contrario,digite false): " SECURE #novo
 echo ""
-read -p "Chave secreta de 32 caracteres: (ex: c56f3775313440c3edce57529a0f02b4) " key
+read -p "Chave secreta de 32 caracteres: (ex: c56f3775313440c3edce57529a0f02b4): " key
 
 #######################################################
 
