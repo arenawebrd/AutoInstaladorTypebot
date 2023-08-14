@@ -1,4 +1,4 @@
-<img src="https://oriondesign.art.br/wp-content/uploads/2023/08/Capa-tuto-git.webp">
+<img src="https://oriondesign.art.br/wp-content/uploads/2023/08/Thumb-Typebot-copiar-3.png">
 
 # Auto Instalador do Typebot
 
