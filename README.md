@@ -6,7 +6,7 @@ Este auto instalador foi testado usando uma VPS vazia da Contabo (4vCores + 8Gb 
 - Recomendo criar uma snapshot da sua vps para evitar qualquer problema que possa vir acontecer;
 <hr/>
 
-Antes de instalar, é de extrema importancia que você crie 3 registros no DNS, sendo eles “typebot”, “bot” e “storage”. Todos do Tipo **A**, todos apontando para o **ip da sua VPS**, **Proxy desativado** e **TTL Auto** (ou o valor que vier).
+Antes de instalar, é de extrema importancia que você crie 3 registros no DNS, sendo eles “typebot”, “bot” e “storage”. Todos do Tipo **A**, todos apontando para o **ip da sua VPS**, com **Proxy desativado** e **TTL Auto** (ou o valor que vier).
 
 <details>
   <summary>Sobre o registro typebot</summary>
@@ -38,5 +38,18 @@ Antes de instalar, é de extrema importancia que você crie 3 registros no DNS, 
 git clone https://github.com/oriondesign2015/AutoInstaladorTypebot.git && cd AutoInstaladorTypebot && chmod +x typebot.sh && ./typebot.sh
 ```
 
-Ao executar esse código, ele pedirá para você fornecer as seguintes coisas:
+Ao executar esse código, ele pedirá para você fornecer as seguintes informações:
   - Link do Builder (ex: typebot.seudominio.com)
+  - Porta do Builder (padrão: 3001)
+  - Link do Viewer (ex: bot.seudominio.com)
+  - Porta do Viewer (padrão: 3002)
+  - Link do Storage (ex: storage.seudominio.com)
+  - Porta do Storage (padrão: 9000)
+  - Seu Email (ex: contato@dominio.com)
+  - Senha do seu Email (se for gmail, precisa ser a senha de aplicativo)
+  - SMTP do seu email (ex: smtp.hostinger.com)
+  - Porta SMTP (ex: 465)
+  - SMTP_SECURE (Se a porta SMTP for 465, digite true, caso contrario,digite false)
+  - Chave secreta de 32 caracteres (gerada no site: <a href="https://codebeautify.org/generate-random-hexadecimal-numbers">codebeautify</a>.)
+
+Após preencher os campos corretamente ele já iniciará a instalação e configurações do Typebot.
