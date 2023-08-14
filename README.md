@@ -1,13 +1,14 @@
+<img src="https://oriondesign.art.br/wp-content/uploads/2023/08/Capa-tuto-git.webp">
+
 # Auto Instalador do Typebot
 
 Este auto instalador foi testado usando uma VPS vazia da Contabo (4vCores + 8Gb Ram) com **Ubunto 20.04**
 
 ### Observações importantes:
-- Recomendo criar uma snapshot da sua vps para evitar qualquer problema que possa vir acontecer;
-<hr/>
+
+Recomendo criar uma snapshot da sua vps para evitar qualquer problema que possa vir acontecer.
 
 Antes de instalar, é de extrema importancia que você crie 3 registros no DNS, sendo eles “typebot”, “bot” e “storage”. Todos do Tipo **A**, todos apontando para o **ip da sua VPS**, com **Proxy desativado** e **TTL Auto** (ou o valor que vier).
-
 <details>
   <summary>Sobre o registro typebot</summary>
   <i>É através dele que conseguiremos acessar o sistema para criarmos o nosso bot, tambem é conhecido como Builder (construtor)</i><br><br>
@@ -33,23 +34,27 @@ Antes de instalar, é de extrema importancia que você crie 3 registros no DNS, 
   <img src="https://file.notion.so/f/s/571842de-ad54-42e3-980e-542204b6ad0c/Untitled.png?id=c5772588-3c3f-4bd9-ad5c-8c7fc29d3d0a&table=block&spaceId=f554c1aa-b56c-4ac0-88b1-4679371e6777&expirationTimestamp=1692072000000&signature=OHFt_mSTmTRB9PEnhwllhnHQdCbzOa69ewqj5_PYRIc&downloadName=Untitled.png">
 </details>
 
+<hr/>
+
+##Instalando Typebot
+
 1- Copie o seguinte comando e cole em seu terminal:
 ```
 git clone https://github.com/oriondesign2015/AutoInstaladorTypebot.git && cd AutoInstaladorTypebot && chmod +x typebot.sh && ./typebot.sh
 ```
 
 Ao executar esse código, ele pedirá para você fornecer as seguintes informações:
-  - Link do Builder (ex: typebot.seudominio.com)
-  - Porta do Builder (padrão: 3001)
-  - Link do Viewer (ex: bot.seudominio.com)
-  - Porta do Viewer (padrão: 3002)
-  - Link do Storage (ex: storage.seudominio.com)
-  - Porta do Storage (padrão: 9000)
-  - Seu Email (ex: contato@dominio.com)
-  - Senha do seu Email (se for gmail, precisa ser a senha de aplicativo)
-  - SMTP do seu email (ex: smtp.hostinger.com)
-  - Porta SMTP (ex: 465)
-  - SMTP_SECURE (Se a porta SMTP for 465, digite true, caso contrario,digite false)
-  - Chave secreta de 32 caracteres (gerada no site: <a href="https://codebeautify.org/generate-random-hexadecimal-numbers">codebeautify</a>.)
+  - Link do Builder (ex: typebot.seudominio.com);
+  - Porta do Builder (padrão: 3001);
+  - Link do Viewer (ex: bot.seudominio.com);
+  - Porta do Viewer (padrão: 3002);
+  - Link do Storage (ex: storage.seudominio.com);
+  - Porta do Storage (padrão: 9000);
+  - Seu Email (ex: contato@dominio.com);
+  - Senha do seu Email (se for gmail, precisa ser a senha de aplicativo);
+  - SMTP do seu email (ex: smtp.hostinger.com);
+  - Porta SMTP (ex: 465);
+  - SMTP_SECURE (Se a porta SMTP for 465, digite true, caso contrario,digite false);
+  - Chave secreta de 32 caracteres (gerada no site: <a href="https://codebeautify.org/generate-random-hexadecimal-numbers">codebeautify</a>).
 
 Após preencher os campos corretamente ele já iniciará a instalação e configurações do Typebot.
