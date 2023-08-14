@@ -63,4 +63,11 @@ Após preencher os campos corretamente ele já iniciará a instalação e config
 
 ### 💡 Ficou com alguma dúvida?
 
-Entre em contato comigo através do WhatsApp (11)97305-2593 ou [clique aqu](http://wa.me/+5511973052593)i
+Entre em contato comigo através do WhatsApp [clicando aqui](http://wa.me/+5511973052593).
+
+<hr/>
+
+### ❤️ Agradecimentos
+
+Agradoço especialmente o <a href="https://github.com/DeividMs">Deivid Santos</a> por ter me ensinado e insentivado a usar o GitHub, alem de me ensinar muitas outras coisas do universo da programação.
+Tambem meus agradecimentos para o pessoal da comunidade <a href"https://github.com/cwmkt">CWMKT</a>.
