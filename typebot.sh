@@ -60,6 +60,9 @@ echo "Atualizando a VPS + Instalando Docker Compose + Nginx + Certbot"
 
 sleep 3
 
+cd
+cd
+
 clear
 
 sudo apt update -y
@@ -77,7 +80,8 @@ sudo apt update
 
 mkdir typebot.io
 cd typebot.io
-
+echo ""
+echo ""
 echo "Atualizado/Instalado com Sucesso"
 
 sleep 3
