@@ -1,8 +1,5 @@
 # Auto Instalador do Typebot
 
-Sumario:
-[Instalação Docker](#instalando-docker)
-
 Este auto instalador foi testado usando uma VPS da Contabo (4vCores + 8Gb Ram) com **Ubunto 20.04**
 
 <hr/>
