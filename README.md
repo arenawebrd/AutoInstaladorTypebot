@@ -59,6 +59,10 @@ Ao executar esse código, ele pedirá para você fornecer as seguintes informaç
 
 Após preencher os campos corretamente ele já iniciará a instalação e configurações do Typebot.
 
+>
+> No final fa instalação aparecerá uma mensagem, digite "Y" e de "ENTER" para finalizar a instalação do typebot.
+>
+
 <hr/>
 
 ### 💡 Ficou com alguma dúvida?
