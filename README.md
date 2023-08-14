@@ -4,7 +4,7 @@
 
 Este auto instalador foi testado usando uma VPS vazia da Contabo (4vCores + 8Gb Ram) com **Ubunto 20.04**
 
-### Observações importantes:
+### 📌 Observações importantes:
 
 Recomendo criar uma snapshot da sua vps para evitar qualquer problema que possa vir acontecer.
 
@@ -36,7 +36,7 @@ Antes de instalar, é de extrema importancia que você crie 3 registros no DNS, 
 
 <hr/>
 
-##Instalando Typebot
+## 📀 Instalando Typebot
 
 1- Copie o seguinte comando e cole em seu terminal:
 ```
@@ -58,3 +58,9 @@ Ao executar esse código, ele pedirá para você fornecer as seguintes informaç
   - Chave secreta de 32 caracteres (gerada no site: <a href="https://codebeautify.org/generate-random-hexadecimal-numbers">codebeautify</a>).
 
 Após preencher os campos corretamente ele já iniciará a instalação e configurações do Typebot.
+
+<hr/>
+
+### 💡 Ficou com alguma dúvida?
+
+Entre em contato comigo através do WhatsApp (11)97305-2593 ou [clique aqu](http://wa.me/+5511973052593)i
