@@ -1,0 +1,12 @@
+// Desativar DevTools
+window.addEventListener('keydown', function(event) {
+    if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && event.key === 'C') || (event.ctrlKey && event.key === 'U')) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+});
+
+// Desativar o menu de contexto (botão direito do mouse)
+window.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
