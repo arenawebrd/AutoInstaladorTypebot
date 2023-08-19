@@ -1,6 +1,6 @@
 // Desativar DevTools
 window.addEventListener('keydown', function(event) {
-    if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && event.key === 'C') || (event.ctrlKey && event.key === 'U')) {
+    if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && event.key === 'C') || (event.ctrlKey && event.key === 'u')) {
         event.preventDefault();
         event.stopPropagation();
     }
